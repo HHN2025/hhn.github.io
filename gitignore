@@ -35,3 +35,110 @@ coverage/
 .cache/
 .pnpm-store/
 .npm/
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HHN - شبكة الأخبار</title>
+
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #0084c6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #005b8e;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HHN - شبكة الأخبار</h1>
+    <p>تغطية سياسية | اقتصادية | اجتماعية | ثقافية | رياضية</p>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">سياسة</a>
+    <a href="#">اقتصاد</a>
+    <a href="#">ثقافة</a>
+    <a href="#">مجتمع</a>
+    <a href="#">رياضة</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>آخر الأخبار</h2>
+      <p>تابع أهم الأحداث الجارية لحظة بلحظة من مصادر موثوقة وتحليلات متعمقة.</p>
+    </section>
+
+    <section>
+      <h2>أبرز المقالات</h2>
+      <ul>
+        <li><strong>السياسة:</strong> قراءة في آخر التطورات الإقليمية</li>
+        <li><strong>الاقتصاد:</strong> تحركات الأسواق العالمية</li>
+        <li><strong>المجتمع:</strong> قضايا الساعة وتأثيرها المحلي</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 HHN - جميع الحقوق محفوظة.
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      console.log("HHN جاهز للعمل!");
+    });
+  </script>
+</body>
+</html>
+git add index.html
+git commit -m "إضافة صفحة HTML مع تصميم الموقع"
+git push origin main
